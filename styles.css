@@ -1,0 +1,44 @@
+/* Elements */
+
+body {
+    background-color:#D4E0F7;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14pt;
+    font-weight: normal;
+    color: #34090C;
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #EA202C;
+    font-size: 32pt;
+    color: #1258DC;
+
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    padding: 30px 100px;
+    box-sizing: content-box;
+}
+
+footer {
+    color: white;
+    background-color: #EA202C;
+    text-align: left;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+/* IDs */
+
+/* Classes */
