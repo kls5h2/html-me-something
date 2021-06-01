@@ -10,8 +10,9 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
-    padding: 0px;
+    padding: 00px;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 header {
@@ -22,14 +23,14 @@ header {
 
     width: auto;
     height: auto;
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
 }
 
 main {
     width: 1400px;
-    padding: 30px 100px;
-    box-sizing: content-box;
+    padding: 10px 100px;
+    box-sizing: border-box;
     text-align: center;
 }
 
@@ -44,10 +45,44 @@ footer {
 
 img {
     width: 200px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* IDs */
 
+#resource-titles {
+    color: red;
+    font-size: 32pt;
+}
+
+#subtitle {
+    color: white;
+}
+
+#quote {
+    color: #2669B5;
+    font-size: 24pt;
+    font-style: italic;
+}
+
 /* Classes */
+
+.img-boarder {
+    border: 5px solid #2669B5;
+    padding: 0px;
+}
+
+.linespace {
+    line-height: 1.5;
+}
+
+.top-pic {
+    width: 450px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #2669B5;
+}
